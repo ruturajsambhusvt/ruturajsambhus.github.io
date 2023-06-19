@@ -263,6 +263,14 @@ ruturajsambhus AT vt.edu
       </div>
     </div>
 
+    <!--------------------------------------------------------------------------->
+
+  <script language="javascript" type="text/javascript" xml:space="preserve">
+    showselected()</script>
+
+<!--------------------------------------------------------------------------->
+
+
 
 
     <!--------------------------------------------------------------------------->
@@ -271,21 +279,20 @@ ruturajsambhus AT vt.edu
   </div>
 
   <div class="section">
-    <h2> Projects (<a href="javascript:showselected()" id="select">selected</a> | <a href="javascript:showall()"
-        id="unselect">all</a>) </h2><br>
-    <div class="year_heading" data-selected="n"><br>2023
+    <h2> Projects (<a href="javascript:showselected_proj()" id="select_proj">selected</a> | <a href="javascript:showall_proj()"
+        id="unselect_proj">all</a>) </h2><br>
+    <div class="year_heading_proj" data-selected="n"><br>2023
       <hr width="220px" align="left">
     </div>
     <!--------------------------------------------------------------------------->
 
 
-    <div class="paper" id="drlseaprojects" data-selected="y">
+    <div class="project" id="drlseaprojects" data-selected="y">
 
       <p> <b id="papertitle">Deep Reinforcement Learning (DRL) for Force Control of Series Elastic Actuator</b> <br />
-
+        Terrestrial Robotics Engineering and Controls (TREC) Lab, Virginia Tech, Blacksburg
       </p>
-
-      <p>Terrestrial Robotics Engineering and Controls (TREC) Lab, Virginia Tech, Blacksburg</p>
+      
 
       <div class="gif"> <iframe src="https://giphy.com/embed/ACUnOg88XJLxSIsnkP" width="480*0.3" height="270*0.3"
           frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
@@ -350,27 +357,28 @@ ruturajsambhus AT vt.edu
         control challenges in a series elastic actuator driving a pendulum system. The integration of DRL with the IHMC
         toolbox and engineering of the RL environment resulted in successful hardware learning and improved performance
         compared to a PID controller.</p>
+      
+        <div class="papermeta" id="drlseacontrolMeta"></div>
 
       </td>
-      <script language="javascript" type="text/javascript" xml:space="preserve">
-        hideblock('iros23drlforceseaBib');
-      </script>
+    
+    </div>
     </div>
 
     <!--------------------------------------------------------------------------->
 
     <!--------------------------------------------------------------------------->
-    <div class="year_heading" data-selected="n"><br>2022
+    <div class="year_heading_proj" id="drlpandaprojects" data-selected="n"><br>2022
       <hr width="220px" align="left">
     </div>
-    <div class="paper" data-selected="y">
+    <div class="project" data-selected="y">
       <!-- <img class="paper" src="figures/cvpr23sparsefusion.gif" /> -->
 
 
       <p> <b id="papertitle">Deep Reinforcement Learning (DRL) for Real Robotic Arm Control</b> <br />
 
+      Terrestrial Robotics Engineering and Controls (TREC) Lab, Virginia Tech, Blacksburg
       </p>
-      <p>Terrestrial Robotics Engineering and Controls (TREC) Lab, Virginia Tech, Blacksburg</p>
 
 
       <div class="gif"> <iframe src="https://giphy.com/embed/zR6clp5PCishzyeJns" width="480*0.3" height="270*0.3"
@@ -458,7 +466,7 @@ ruturajsambhus AT vt.edu
 
 
 
-  <div class="paper" id="imece23drlseaposition" data-selected="y">
+  <div class="project" id="imece23drlseaposition" data-selected="y">
     <!-- <img class="paper" src="figures/cvpr23affordance.gif" /> -->
     <p> <strong style="color:red">[New]</strong> <b id="papertitle">
         Real-World Deep Reinforcement Learning for Position Tracking of a Pendulum Driven by a Series Elastic
@@ -613,7 +621,7 @@ ruturajsambhus AT vt.edu
   <!--------------------------------------------------------------------------->
 
   <script language="javascript" type="text/javascript" xml:space="preserve">
-    showselected()</script>
+    showselected_proj()</script>
 
 <!--------------------------------------------------------------------------->
 

@@ -17,7 +17,30 @@ function showselected()
     }
     document.getElementById('select').style = 'text-decoration:underline';
     document.getElementById('unselect').style = '';
+    
 }
+
+function showselected_proj()
+{
+    var el = document.getElementsByTagName("div") ;
+    for (var i = 0 ; i < el.length ; ++i) {
+        if (el[i].className == "project") {
+            if (el[i] .dataset.selected == 'n'){
+                el [i] .style.display = 'none' ;
+            }
+        }
+    }
+
+    for (var i = 0 ; i < el.length ; ++i) {
+        if (el[i].className == "year_heading_proj") {
+            el [i] .style.display = 'none' ;
+        }
+    }
+    document.getElementById('select_proj').style = 'text-decoration:underline';
+    document.getElementById('unselect_proj').style = '';
+    
+}
+
 
 
 function showall()
@@ -38,6 +61,26 @@ function showall()
     }
     document.getElementById('unselect').style = 'text-decoration:underline';
     document.getElementById('select').style = '';
+}
+
+function showall_proj()
+{
+    var el = document.getElementsByTagName("div") ;
+    for (var i = 0 ; i < el.length ; ++i) {
+        if (el[i].className == "project") {
+            if (el[i] .dataset.selected == 'n'){
+                el [i] .style.display = 'block' ;
+            }
+        }
+    }
+
+    for (var i = 0 ; i < el.length ; ++i) {
+        if (el[i].className == "year_heading_proj") {
+            el [i] .style.display = 'block' ;
+        }
+    }
+    document.getElementById('unselect_proj').style = 'text-decoration:underline';
+    document.getElementById('select_proj').style = '';
 }
 
 function hideallbibs()

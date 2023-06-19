@@ -124,6 +124,12 @@ div.paper {
   padding: 1em 1em 0em 1em;
 }
 
+div.project {
+  clear: both;
+  background: #fff;
+  padding: 1em 1em 0em 1em;
+}
+
 div.prospective {
   clear: both;
   background: #f7f7f7;
@@ -132,6 +138,14 @@ div.prospective {
 }
 
 div.year_heading
+{
+	color: #3B3B3B;
+	font-weight: 500;
+	font-size:20px;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+div.year_heading_proj
 {
 	color: #3B3B3B;
 	font-weight: 500;
@@ -151,12 +165,18 @@ div.paper div.wide {
   padding-right: 0px;
 }
 
+div.project div.wide {
+  padding-right: 0px;
+}
+
 img.paper {
 	margin-right: 2em;
   margin-bottom: 0.5em;
   float: left;
   width: 200px;
 }
+
+
 
 img.imece {
   margin-right: 2em;
