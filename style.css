@@ -156,6 +156,13 @@ img.paper {
   width: 200px;
 }
 
+img.imece {
+  margin-right: 2em;
+  margin-bottom: 0.5em;
+  float: left;
+  width: 600px;
+}
+
 span.blurb {
   font-style:italic;
   display:block;
@@ -173,4 +180,10 @@ div.papermeta pre {
 	font-family: 'Lucida Console', 'Andale Mono', 'Courier', monospaced;
 	font-size: 11px;
 	line-height: 14px;
+}
+
+.gif {
+  display: inline-block;
+  width: 480*0.3px;
+  height: 270*0.3px;
 }
