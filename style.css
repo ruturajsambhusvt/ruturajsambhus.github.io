@@ -185,6 +185,16 @@ img.imece {
   width: 600px;
 }
 
+img.haptics {
+  margin-right: 2em;
+  margin-bottom: 0.5em;
+  float: left;
+  width: 260px;
+  height: auto;
+  margin-left: 30px; /* Add margin from the left */
+}
+
+
 span.blurb {
   font-style:italic;
   display:block;
