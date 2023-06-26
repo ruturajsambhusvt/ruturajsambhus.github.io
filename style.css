@@ -194,6 +194,15 @@ img.haptics {
   margin-left: 30px; /* Add margin from the left */
 }
 
+img.prosthesis {
+  margin-right: 2em;
+  margin-bottom: 0.5em;
+  float: left;
+  width: 250px;
+  height: auto;
+  margin-left: 30px; /* Add margin from the left */
+}
+
 
 span.blurb {
   font-style:italic;
