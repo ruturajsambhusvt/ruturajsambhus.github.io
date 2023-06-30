@@ -153,6 +153,14 @@ div.year_heading_proj
   font-family: Helvetica, Arial, sans-serif;
 }
 
+div.year_heading_course
+{
+	color: #3B3B3B;
+	font-weight: 500;
+	font-size:20px;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
 div.papermeta {
   clear: both;
 	margin-left: 210px;
@@ -198,7 +206,7 @@ img.prosthesis {
   margin-right: 2em;
   margin-bottom: 0.5em;
   float: left;
-  width: 250px;
+  width: 240px;
   height: auto;
   margin-left: 30px; /* Add margin from the left */
 }

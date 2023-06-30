@@ -41,6 +41,27 @@ function showselected_proj()
     
 }
 
+function showselected_course()
+{
+    var el = document.getElementsByTagName("div") ;
+    for (var i = 0 ; i < el.length ; ++i) {
+        if (el[i].className == "course") {
+            if (el[i] .dataset.selected == 'n'){
+                el [i] .style.display = 'none' ;
+            }
+        }
+    }
+
+    for (var i = 0 ; i < el.length ; ++i) {
+        if (el[i].className == "year_heading_course") {
+            el [i] .style.display = 'none' ;
+        }
+    }
+    document.getElementById('select_course').style = 'text-decoration:underline';
+    document.getElementById('unselect_course').style = '';
+    
+}
+
 
 
 function showall()
@@ -81,6 +102,26 @@ function showall_proj()
     }
     document.getElementById('unselect_proj').style = 'text-decoration:underline';
     document.getElementById('select_proj').style = '';
+}
+
+function showall_course()
+{
+    var el = document.getElementsByTagName("div") ;
+    for (var i = 0 ; i < el.length ; ++i) {
+        if (el[i].className == "course") {
+            if (el[i] .dataset.selected == 'n'){
+                el [i] .style.display = 'block' ;
+            }
+        }
+    }
+
+    for (var i = 0 ; i < el.length ; ++i) {
+        if (el[i].className == "year_heading_course") {
+            el [i] .style.display = 'block' ;
+        }
+    }
+    document.getElementById('unselect_course').style = 'text-decoration:underline';
+    document.getElementById('select_course').style = '';
 }
 
 function hideallbibs()
