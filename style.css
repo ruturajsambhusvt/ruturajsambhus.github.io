@@ -130,6 +130,12 @@ div.project {
   padding: 1em 1em 0em 1em;
 }
 
+div.course {
+  clear: both;
+  background: #fff;
+  padding: 1em 1em 0em 1em;
+}
+
 div.prospective {
   clear: both;
   background: #f7f7f7;
@@ -174,6 +180,10 @@ div.paper div.wide {
 }
 
 div.project div.wide {
+  padding-right: 0px;
+}
+
+div.course div.wide {
   padding-right: 0px;
 }
 
