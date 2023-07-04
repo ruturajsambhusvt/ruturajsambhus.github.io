@@ -112,6 +112,14 @@ div.section {
   margin-left: 40px;
 }
 
+div.credits {
+  clear: both;
+	margin-top: 1.5em;
+	margin-bottom: 1.5em;
+  margin-right: 40px;
+  margin-left: 40px;
+}
+
 
 
 div.spanner {
