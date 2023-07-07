@@ -1,2 +1,2 @@
-# shubhtuls.github.io
+# ruturajsambhusvt.github.io
 Personal Website
