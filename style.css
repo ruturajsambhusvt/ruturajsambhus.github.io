@@ -144,6 +144,12 @@ div.course {
   padding: 1em 1em 0em 1em;
 }
 
+div.leader {
+  clear: both;
+  background: #fff;
+  padding: 1em 1em 0em 1em;
+}
+
 div.prospective {
   clear: both;
   background: #f7f7f7;
@@ -192,6 +198,10 @@ div.project div.wide {
 }
 
 div.course div.wide {
+  padding-right: 0px;
+}
+
+div.leader div.wide {
   padding-right: 0px;
 }
 
